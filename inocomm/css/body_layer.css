@@ -1,0 +1,18 @@
+/*  body 상단 이미지 겹치기 효과  2019-12-15 */
+/* 게시판 header.htx 수정해야함 */
+
+
+#inocat_header_table{border:0px solid #ff0000 ;padding:10px;background-color:#f7f7f7;padding-bottom:30px}
+#inocat_header_table .inocat_header_table_right_body{position:relative;margin-top:-50px; border:solid 1px;border-color:#cccccc; max-width:90%;background-color:#ffffff;z-index:0}
+/*#inocat_header_table .inocat_header_table_right_body{position:relative;margin-top:-80px; border:solid 1px;border-color:#cccccc; box-shadow: 1px 1px 1px 1px #eeeeee;max-width:90%;background-color:#ffffff;z-index:999999999}*/
+
+@media screen and (max-width: 900px) {
+			
+		}    
+
+		@media screen and (max-width: 600px) {
+			#inocat_header_table{padding:0px;background-color:#ffffff;padding-bottom:10px}
+			#inocat_header_table .inocat_header_table_right_body{margin-top:0px; border:solid 0px;border-color:#cccccc; max-width:100%;}
+		}    
+
+/*  body 상단 이미지 겹치기 효과 */

@@ -1,0 +1,23 @@
+
+#bottom_bg .bottom_body {display:block; background:#2C2925; border: 0px solid #ff00ff;}
+#bottom_bg .bottom_body {margin-top:0px;margin-left:0px;margin-bottom:0px;padding-left: 20px;padding-right: 20px}
+#bottom_bg .bottom_body TD{font-size:12px; line-height:18px; color:#6f6f6f; font-family:'Nanum Gothic'}
+
+#bottom_bg .bottom_body a {color:#6f6f6f; text-decoration:none;}
+#bottom_bg .bottom_body a:hover {color:#FF8A42; text-decoration:none;}
+
+
+ .btm_top_bar {display:block; background:#3E3E3E; margin-top:0px; height:30px; width:100%; border: 0px solid #999999;vertical-align: middle;text-align:right;font-size:8px;}
+ .btm_inobd_ver {display:inline-block;color:#3E3E3E; margin-top:4px;border: 0px solid #999999;margin-right:10%}
+ .btm_inobd_ver a {color:#3E3E3E; font-size:12px;}
+
+#bottom_bg .bottom_body .btm_top_gab {padding-top: 50px}
+#bottom_bg .bottom_body .btm_bottom_gab {padding-bottom: 50px}
+
+#bottom_bg .bottom_body .btm_top_gab_m {padding-top: 40px}
+#bottom_bg .bottom_body .btm_bottom_gab_m {padding-bottom: 40px}
+
+#bottom_bg .bottom_body .btm_top_gab_s {padding-top: 30px}
+#bottom_bg .bottom_body .btm_bottom_gab_s {padding-bottom: 30px}
+
+

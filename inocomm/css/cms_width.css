@@ -1,0 +1,84 @@
+
+/*******  내용페이지 가로폭 설정 *************************/
+#sub_page_section { box-sizing: border-box;}
+#sub_page_section{
+padding:0px;
+margin:0px;
+border:0px solid #ff0000;text-align:center;
+
+}
+
+#sub_page_section .sub_page_body{
+display:inline-block;border:0px solid #ff00ff;width:100%;
+text-align:center;
+padding:0px;
+margin:0px;
+
+}
+.ino_left_margin{width:5%;border:0px solid #000000;}
+.ino_right_margin{width:5%;border:0px solid #000000;}
+
+/*****  타이틀 가로폭 설정 ***/
+
+#ino_title_width { box-sizing: border-box;}
+/* #ino_title_width { display:flex; justify-content: center;border:0px solid #0000ff;} */
+#ino_title_width { width:100%;border:0px solid #0000ff;}
+.ino_title_width_child { display:inline-block;width:85%;border:0px solid #00ddff;max-width:100%;padding-top:30px}
+
+.read_top{padding:0px;margin:0px;border:0px solid #00ddff; width:100%;}
+
+#ino_bbs_width { box-sizing: border-box;}
+#ino_bbs_width {border:0px solid #0000ff; width:100%;}
+.ino_bbs_width_child {display:inline-block;border:0px solid #00ddff;width:100%;max-width:85%;min-height:400px}
+
+#ino_cat_width { box-sizing: border-box;}
+#ino_cat_width { border:0px solid #0000ff; width:100%;}
+.ino_cat_width_child {display:inline-block;border:0px solid #00ddff;width:100%;max-width:100%} /* 내용페이지 100%  parallax - max-width:100%*/
+.ino_cat_width_child_cms {display:inline-block;border:0px solid #00ddff;width:100%;max-width:85%} /* 내용페이지 100%  parallax - max-width:100%*/
+
+#cat_01_cms .ct_max_wsub {border:0px solid #ff00ff;margin-left:10%;margin-right:10%;max-width:100%;}  
+
+#cat_01_cms .ct_max_wsub_sd20 {border:0px solid #ff00ff;margin-left:20%;margin-right:20%;max-width:100%;}  
+#cat_01_cms .ct_max_wsub_sd30 {border:0px solid #ff00ff;margin-left:30%;margin-right:30%;max-width:100%;}  
+
+
+
+#cat_01_cms .ct_max_w50 {display:inline-block;max-width:50%; border:10px solid #ff00ff;width:100%} 
+#cat_01_cms .ct_max_w60 {display:inline-block;max-width:50%; border:10px solid #ff00ff;width:100%} 
+#cat_01_cms .ct_max_w70 {display:inline-block;max-width:50%; border:10px solid #ff00ff;width:100%} 
+
+
+#cat_01_cms .ct_max_w80 {display:inline-block;max-width:80%; border:10px solid #ff00ff;width:100%} 
+#cat_01_cms .ct_max_w85 {display:inline-block;max-width:85%; border:0px solid #ff00ff;width:100%} 
+#cat_01_cms .ct_max_w90 {display:inline-block;max-width:90%; border:0px solid #ff00ff;width:100%} 
+
+
+#cat_01_cms .ct_max_w100 {display:block;max-width:100%;border:0px solid #ff00ff;} 
+/*#cat_01_cms .ct_max_wsub {display:inline-block;border:1px solid #ff00ff;margin-left:5%;margin-right:5%;max-width:100%;}  */
+#cat_01_cms .ct_max_w80_98 {display:inline-block;width:100%;max-width:80%;border:0px solid #ff00ff;} 
+#cat_01_cms .ct_w100_max80 {width:100%;max-width:80%;border:10px solid #ff00ff;margin:0 auto;} 
+#cat_01_cms .ct_w100_max90 {width:100%;max-width:90%;border:0px solid #ff00ff;margin:0 auto;} 
+
+#cat_01_cms .ct_w100_max100 {width:100%;display:block;max-width:100%;border:0px solid #ff0000;} 
+#cat_01_cms .ct__body_text_left {width:100%;text-align:left;border:0px solid #ff00ff;}
+
+#cat_01_cms .ct__body_text_center {width:100%;text-align:center;border:0px solid #ff00ff;}
+
+
+@media screen and (max-width: 600px) {
+
+#cat_01_cms .ct_max_wsub {display:inline-block;margin-left:5%;margin-right:5%;max-width:100%; border:0px solid #ff00ff;width:90%} 
+#cat_01_cms .ct_max_wsub_sd20 {display:inline-block;margin-left:5%;margin-right:5%;max-width:100%; border:0px solid #ff00ff;width:90%} 
+#cat_01_cms .ct_max_wsub_sd30 {display:inline-block;margin-left:5%;margin-right:5%;max-width:100%; border:0px solid #ff00ff;width:90%} 
+
+#cat_01_cms .ct_max_w80_98 {display:inline-block;max-width:98%;border:0px solid #ff00ff;width:100%;} 
+#cat_01_cms .ct_w100_max90 {width:100%;max-width:90%;border:0px solid #ff00ff;margin:0 auto;} 
+#cat_01_cms .ct_w100_max80 {display:inline-block;max-width:98%;border:0px solid #ff00ff;width:100%;} 
+
+.ino_title_width_child { width:100%;max-width:97%; padding-top:10px }
+.ino_bbs_width_child { width:100%;max-width:97%;}
+.ino_cat_width_child { width:100%;max-width:97%;}
+#sub_page_section .sub_page_body{display:inline-block;border:0px solid #ff00ff;width:100%;max-width:100%;}
+
+}
+/*******  내용페이지 가로폭 설정 *************************/
