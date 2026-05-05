@@ -2045,6 +2045,44 @@ flex-wrap:wrap;
   color: #ffffff;
 }
 
+#cms_sms_reg .quick-consultation-actions {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+#cms_sms_reg .quick-consultation-actions .btn_sms,
+#cms_sms_reg .quick-consultation-actions .btn_kakao {
+  flex: 1;
+}
+
+#cms_sms_reg .btn_kakao {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #fee500;
+  background-color: #fee500;
+  color: #191919;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family:'Noto Sans Medium';
+}
+
+#cms_sms_reg .btn_kakao:hover {
+  background-color: #f7d900;
+  color: #191919;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  #cms_sms_reg .quick-consultation-actions {
+    flex-direction: column;
+  }
+}
 #cms_sms_reg .cms_sms_pps_table {width:80%; border:0px solid #ff0000}
 #cms_sms_reg .cms_sms_pps_table .td_01 {font-size:16px;width:70%}
 #cms_sms_reg .cms_sms_pps_table .td_02 {font-size:16px;width:25%}
@@ -2285,7 +2323,10 @@ flex-wrap:wrap;
     <textarea class="input-field" id="subject" name="sms_msg" placeholder="업무시간 이후엔 온라인으로 문의하시면 보다 신속히 처리 해드리겠습니다" style="height:100px"></textarea>
   </div>
 
-  <button type="submit" class="btn_sms success">상담신청</button>
+  <div class="quick-consultation-actions">
+    <button type="submit" class="btn_sms success">상담신청</button>
+    <a href="https://pf.kakao.com/_PbfxbX/chat" class="btn_kakao" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">카톡 상담하기</a>
+  </div>
 
 
 
