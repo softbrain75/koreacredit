@@ -2368,7 +2368,27 @@ flex-wrap:wrap;
 <div  class="ct_max_wsub">	
 <div class="trans_w2 "><div class="trans_w2_item"><!-----trans_w2 S--->	
 
-	<div class="img-text_section_02_contact"   >
+	<style>
+@media screen and (max-width: 600px) {
+  #cms_sms_reg .kakao-consult-card,
+  #cms_sms_reg .kakao-consult-support,
+  #cms_tel_reg_bottom #company_tel_info .company_tel_info_body,
+  #cms_tel_reg_bottom #company_info_bottom .company_info_body {
+    width: calc(100vw - 96px);
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+
+  #cms_tel_reg_bottom #company_tel_info .company_tel_info_body {
+    padding-top: 0;
+  }
+}
+</style>
+<div class="img-text_section_02_contact"   >
 
 		<div class="svc_outer">
 
