@@ -2550,43 +2550,192 @@ flex:1;
   color: #f7f7f7;
 }
 
-.quick-consultation-actions {
-  display: flex;
-  gap: 8px;
-  width: 100%;
+#main_page_new1_tel_bbs_sms01 .kakao-consult-info {
+  margin: 0 0 16px;
+  color: #2d405b;
+  font-family: 'Noto Sans Light';
+  text-align: left;
+  word-break: keep-all;
 }
 
-.quick-consultation-actions .btn_sms,
-.quick-consultation-actions .btn_kakao {
-  flex: 1;
-}
-
-.btn_kakao {
+#main_page_new1_tel_bbs_sms01 .kakao-consult-info strong {
   display: block;
-  width: 100%;
-  padding: 10px 20px;
-  border: 1px solid #fee500;
-  background-color: #fee500;
-  color: #191919;
-  font-size: 16px;
-  line-height: normal;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
+  margin-bottom: 8px;
+  color: #071832;
+  font-family: 'Noto Sans Medium';
+  font-size: 22px;
+  line-height: 1.35;
 }
 
-.btn_kakao:hover {
-  background-color: #f7d900;
-  color: #191919;
-  text-decoration: none;
+#main_page_new1_tel_bbs_sms01 .kakao-consult-info span {
+  display: block;
+  font-size: 15px;
+  line-height: 1.65;
 }
 
 @media screen and (max-width: 600px) {
-  .quick-consultation-actions {
-    flex-direction: column;
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-info strong {
+    font-size: 20px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-info span {
+    font-size: 14px;
+  }
+}
+.kakao-consult-card {
+  width: 100%;
+  padding: 6px 0 0;
+}
+
+.kakao-consult-button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 88px;
+  padding: 16px 18px;
+  border: 0;
+  border-radius: 12px;
+  background: #fee500;
+  color: #111111;
+  text-align: left;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(25, 25, 25, 0.12);
+  box-sizing: border-box;
+}
+
+.kakao-consult-button:hover {
+  background: #f7d900;
+  color: #111111;
+  text-decoration: none;
+}
+
+.kakao-consult-icon {
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(17, 17, 17, 0.08);
+  color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.kakao-consult-text {
+  display: block;
+  min-width: 0;
+}
+
+.kakao-consult-channel {
+  display: block;
+  margin-bottom: 5px;
+  color: #6e6000;
+  font-family: 'Noto Sans Medium';
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.kakao-consult-text strong {
+  display: block;
+  color: #111111;
+  font-family: 'Noto Sans Medium';
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  word-break: keep-all;
+}
+
+@media screen and (max-width: 600px) {
+  .kakao-consult-button {
+    gap: 12px;
+    min-height: 86px;
+    padding: 16px;
+  }
+
+  .kakao-consult-icon {
+    flex-basis: 52px;
+    width: 52px;
+    height: 52px;
+    font-size: 25px;
+  }
+
+  .kakao-consult-text strong {
+    font-size: 22px;
   }
 }
 
+#main_page_new1_tel_bbs_sms01 .kakao-consult-card {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+}
+
+#main_page_new1_tel_bbs_sms01 .kakao-consult-support {
+  max-width: 520px;
+  margin: 18px auto 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#main_page_new1_tel_bbs_sms01 .kakao-consult-support .support-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+  border-top: 1px solid #e6e9ee;
+  color: #2d405b;
+  font-family: 'Noto Sans Light';
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left;
+}
+
+#main_page_new1_tel_bbs_sms01 .kakao-consult-support .support-item:first-child {
+  border-top: 0;
+}
+
+#main_page_new1_tel_bbs_sms01 .kakao-consult-support .support-label {
+  flex: 0 0 82px;
+  color: #6b7280;
+  font-family: 'Noto Sans Medium';
+}
+
+#main_page_new1_tel_bbs_sms01 .kakao-consult-support strong {
+  flex: 1;
+  color: #071832;
+  font-family: 'Noto Sans Medium';
+  font-weight: normal;
+  text-align: right;
+  word-break: keep-all;
+}
+
+@media screen and (max-width: 600px) {
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-card,
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-support {
+    width: calc(100vw - 132px);
+    max-width: 520px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-support .support-item {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-support .support-label {
+    flex: none;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .kakao-consult-support strong {
+    text-align: left;
+  }
+}
 /* Blue */
 .info {
   border-color: #2196F3;
@@ -2656,7 +2805,219 @@ flex:1;
 
 
 
-</style>
+
+#main_page_new1_tel_bbs_sms01 .contact-consult-info {
+  margin: 0 0 18px;
+  padding: 0 20px;
+  color: #2d405b;
+  font-family: 'Noto Sans Light';
+  text-align: left;
+  word-break: keep-all;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-consult-info strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #071832;
+  font-family: 'Noto Sans Medium';
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-consult-info span {
+  display: block;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_tel_info .company_tel_info_body {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 92px;
+  padding: 10px 16px;
+  border: 1px solid #e4e9f1;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(25, 25, 25, 0.08);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-icon {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #fff1e8;
+  color: #ff7f3f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-copy {
+  display: block;
+  min-width: 0;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-copy span {
+  display: block;
+  margin-bottom: 3px;
+  color: #6b7280;
+  font-family: 'Noto Sans Medium';
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-copy strong {
+  display: block;
+  font-family: 'Busan';
+  font-weight: normal;
+  line-height: 1.08;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-copy strong a {
+  color: #ff7f3f;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-call-copy strong a:hover {
+  color: #f9680f;
+  text-decoration: none;
+}
+
+#main_page_new1_tel_bbs_sms01 .contact-hours-note {
+  margin: 14px auto 0;
+  color: #071832;
+  font-family: 'Noto Sans Light';
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_body {
+  max-width: 520px;
+  margin: 18px auto 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #e6e9ee;
+  color: #2d405b;
+  font-family: 'Noto Sans Light';
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_outer:first-child {
+  border-top: 0;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_t {
+  display: block;
+  flex: 0 0 82px;
+  min-width: 0;
+  padding: 0;
+  color: #6b7280;
+  font-family: 'Noto Sans Medium';
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_c {
+  display: block;
+  flex: 1;
+  width: auto;
+  padding: 0;
+  color: #071832;
+  font-family: 'Noto Sans Medium';
+  text-align: right;
+  word-break: keep-all;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_c a {
+  color: #071832;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#main_page_new1_tel_bbs_sms01 #company_info .company_info_c a:hover {
+  color: #f9680f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  #main_page_new1_tel_bbs_sms01 .contact-consult-info {
+    padding: 0 8px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .contact-consult-info strong {
+    font-size: 20px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .contact-consult-info span {
+    font-size: 14px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 #company_tel_info .company_tel_info_body,
+  #main_page_new1_tel_bbs_sms01 #company_info .company_info_body {
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .contact-call-card {
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+    min-height: 86px;
+    padding: 12px 14px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .contact-call-icon {
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 .contact-call-copy strong a {
+    font-size: 22px;
+    white-space: nowrap;
+  }
+
+  #main_page_new1_tel_bbs_sms01 #company_info .company_info_outer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  #main_page_new1_tel_bbs_sms01 #company_info .company_info_t {
+    flex: none;
+  }
+
+  #main_page_new1_tel_bbs_sms01 #company_info .company_info_c {
+    text-align: left;
+  }
+}</style>
 <!---------------------------------------------------------------------------------------------------------->
 
 	
@@ -2673,6 +3034,7 @@ flex:1;
 		<span class="ino_comm_font_Noto_Sans_Medium ino_comm_font40 ino_comm_font_h120">센터</span>
 	</div>	
 	<div class="pt20"></div>
+
 
 
 <!---------------------------------------------------------------------------------------------------------------------------------------------->
@@ -2695,11 +3057,15 @@ flex:1;
 
 					<table border=0  cellpadding="0" width=100% cellspacing="0">
 						<tr>
-							<td align=left width=100%><a href="#quick-consultation"><div class="main_bbs_title_text01 pl4">빠른상담신청</div></a></td>
-							<td valign=top width= 57 nowrap align=right><a href="#quick-consultation"><div class="main_bbs_title_text01_more">+</div></a></td>
+							<td align=left width=100%><a href="https://pf.kakao.com/_XxjQxbX/chat" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div class="main_bbs_title_text01 pl4">&#52852;&#53665; &#49345;&#45812;&#54616;&#44592;</div></a></td>
+							<td valign=top width= 57 nowrap align=right><a href="https://pf.kakao.com/_XxjQxbX/chat" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div class="main_bbs_title_text01_more">+</div></a></td>
 						</tr>						
 					</table>
 					<div class="pt10"></div>
+					<div class="kakao-consult-info">
+						<strong>카카오 채널로 문의해 주세요.</strong>
+						<span>업무시간에는 실시간으로 상담해 드리고, 업무시간 외 문의는 확인 후 순차적으로 답변드리겠습니다.</span>
+					</div>
 					<!--sms---------------------------------------------------------------------------------------------->
 					<!--sms---------------------------------------------------------------------------------------------->
 
@@ -2714,117 +3080,29 @@ flex:1;
 
 									<div class="pt10"></div>
 
-									<!---form mail------------>
-									<!---form mail------------>
-																		<meta http-equiv="content-type" content="text/html; charset=EUC-KR">
-									<script language="javascript">
-									<!--
-									function checkItN(form) {
-
-									var chk1sms=document.signform_m_sms.Agreement1sms.checked;
-											if(!chk1sms){
-													alert('개인정보보호를 위한 이용자동의사항에 동의해 주세요.');
-													 return false ;
-											} 
-
-											if(!signform_m_sms.sender_office.value) {
-													alert('성명을 입력해 주세요');
-													signform_m_sms.sender_office.focus();
-													return false;
-											} 
-
-											if(!signform_m_sms.mobile1.value) {
-													alert('핸드폰번호를 입력해 주세요');
-													signform_m_sms.mobile1.focus();
-													return false;
-											} 
-
-									 signform_m_sms.submit();
-									}
-									//-->
-									</script>
-									
-
-
-
-									<script language='javascript'> 
-									function Change (target,type) 
-												{ 
-													if ( target.value == target.defaultValue && type==0) target.value = ''; 
-													if ( !target.value && type==1) target.value = target.defaultValue; 
-									} 
-									</script> 
-
-
-
-	
-			<form id="quick-consultation" name="signform_m_sms" action="/api/consultation" method="POST" onsubmit="return submitConsultationForm(event)">
-
-		<input type=hidden name="LocalConfig" value="Default">
-		<input type=hidden name="svr_tp" value="sv01">
-		<input type=hidden name="Q_type" value="상담신청">	
-		<input type=hidden name="rp_sms_type" value="main">	
-		<input type="hidden" name="sms_type" value="sms_qmu"> 
-		<input type="hidden" name="focus_info">
-		<input type="hidden" name="hm_ck" value="sms">
-
-		
-		<div class="pt4"></div>
-
-  <div class="input-container">
-    <!--<i class="fa fa-user icon"></i>-->
-	<i class="fa fa-user icon"></i> 
-	 <input class="input-field" type="text" placeholder="이름" name="sender_office" required autocomplete="name">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-phone icon"></i>
-    <input class="input-field" type="text" placeholder="연락처" name="mobile" required inputmode="tel" autocomplete="tel">
-  </div>
-  
-  <div class="input-container">
-   <i class="fa fa-pencil-alt icon"></i>
-    <textarea class="input-field" id="subject" name="sms_msg" placeholder="상담 내용을 전달해주시면 신속하게 연락드리겠습니다." style="height:100px" required></textarea>
-  </div>
-
-    <div class="quick-consultation-actions">
-    <button type="submit" class="btn_sms success">상담신청</button>
-    <a href="https://pf.kakao.com/_PbfxbX/chat" class="btn_kakao" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" onclick="return openKakaoConsultation(event)">카톡 상담하기</a>
-  </div><div id="consultationStatus" class="pr_text-small001" style="padding-top:10px;line-height:1.5"></div>
-
-
-
-
-
-
-
-			<!---form mail------------>
-		<div class="pt4"></div>
-				</td>
-			</tr>
-		</table>
-
-
-				</tr>
-			<tr>
-		</table>
-
-		<div class="pt4"></div>
-
-		<table border="0" align=center cellpadding="0" cellspacing="0" width="274" >	
-			<tr>
-				<td  align=left><font class="pr_text-small001">+ 개인정보처리방침 동의 </font><input type=checkbox id="Agreement1sms" name="agreement" value="pi02" required> </td><td align=center>
-				<!--<a href="" onfocus="blur()" onClick="window.open('/skin/01/comm/pps.html','inew','width=590,height=569,toolbar=no,scrollbars=no,resizable=no');return false">-->
-				<a href="" onfocus="blur()" onClick="window.open('/skin/01/comm/pps.html','inew','width=590,height=569,toolbar=no,scrollbars=no,resizable=no');return false">
-
-				<font class="pr_text-small001">상세보기</a></td>
-			</tr>
+									<!--kakao consultation-->
+									<div id="quick-consultation" class="kakao-consult-card">
+  <a href="https://pf.kakao.com/_XxjQxbX/chat" class="kakao-consult-button" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">
+    <span class="kakao-consult-icon"><i class="fas fa-comment"></i></span>
+    <span class="kakao-consult-text">
+      <span class="kakao-consult-channel">&#52852;&#52852;&#50724;&#53665; &#44277;&#49885; &#52292;&#45328;</span>
+      <strong>1:1 &#49892;&#49884;&#44036; &#52292;&#54021; &#49345;&#45812;</strong>
+    </span>
+  </a>
+</div>
+<div class="kakao-consult-support">
+  <div class="support-item"><span class="support-label">상담 가능</span><strong>평일 09:00 - 18:00</strong></div>
+  <div class="support-item"><span class="support-label">업무 외 문의</span><strong>남겨주시면 확인 후 답변</strong></div>
+  <div class="support-item"><span class="support-label">자료 첨부</span><strong>계약서/판결문/거래내역 사진</strong></div>
+</div>
+									<div class="pt4"></div>
+									</td>
+								</tr>
+							</table>
+							</td>
+						</tr>
 					</table>
-
-		<!--sms---------------------------------------------------------------------------------------------->
-		<!--sms---------------------------------------------------------------------------------------------->
-
-		</form>
+					<div class="pt4"></div>
 					<!--screen---------------------------------------------------------------------------------------------->
 					<!--screen---------------------------------------------------------------------------------------------->
 		</div>
@@ -2844,66 +3122,48 @@ flex:1;
 					<table border=0  cellpadding="0" width=100% cellspacing="0">
 						<tr>
 							<td align=left width=100%><a href="tel:031-901-5639"><div class="main_bbs_title_text01 pl4">연락처</div></a></td>
-							<td valign=top width= 57 nowrap align=right><a href="#quick-consultation"><div class="main_bbs_title_text01_more">+</div></a></td>
+							<td valign=top width= 57 nowrap align=right><a href="https://pf.kakao.com/_XxjQxbX/chat" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div class="main_bbs_title_text01_more">+</div></a></td>
 						</tr>						
 					</table>
 
 	<div class="pt10"></div>
+<div class="contact-consult-info">
+  <strong>대표 연락처로 바로 문의해 주세요.</strong>
+  <span>상담 가능 시간에는 전화로 연결해 드리고, 통화가 어려우시면 이메일 또는 카카오톡으로 남겨 주세요.</span>
+</div>
 
 <div id="company_tel_info">
-	<div class="company_tel_info_body">
-			<div class="company_info_left">업무시간 이후엔 온라인으로 문의하시면 보다 신속히 처리 해드리겠습니다.</div>
-
-		<div class="pt20"></div>
-
-	
-					<div class="main_cms_tel_center"><a href="tel:031-901-5639">031-901-5639</a></div>
-							<div class="main_cms_tel_center"><a href="tel:010-7736-0487">010-7736-0487</a></div>
-		
-
-		<div class="pt20"></div>
-						<div class="company_info_center">업무시간 : 오전 9시 ~ 오후 6시<br />
-토·일 공휴일 휴무</div>
-
-
-	
-
-
-	</div>
+  <div class="company_tel_info_body">
+    <div class="contact-call-card">
+      <span class="contact-call-icon"><i class="fas fa-phone"></i></span>
+      <span class="contact-call-copy">
+        <span>대표 상담 전화</span>
+        <strong><a href="tel:031-901-5639">031-901-5639</a></strong>
+        <strong><a href="tel:010-7736-0487">010-7736-0487</a></strong>
+      </span>
+    </div>
+    <div class="contact-hours-note">업무시간 : 오전 9시 ~ 오후 6시<br />토·일 공휴일 휴무</div>
+  </div>
 </div>
-		
-
 
 
 <div id="company_info">
-	<div class="company_info_body">
-	 
-	
-	 
-	
-			<div class="company_info_outer">
-			<div class="company_info_t">▣ FAX</div><div class="company_info_c">031-901-5640</div>
-		</div>
-		<div class="pt0"></div>	
-	 
-	
-	 
-	 
-			<div class="company_info_outer">
-			<div class="company_info_t">▣ E-mail</div><div class="company_info_c"><a href="mailto:pilsoo77@naver.com">pilsoo77@naver.com</a></div>
-		</div>
-		<div class="pt0"></div>	
-	 
-	 
-	</div>
+  <div class="company_info_body">
+    <div class="company_info_outer">
+      <div class="company_info_t">FAX</div><div class="company_info_c">031-901-5640</div>
+    </div>
+    <div class="company_info_outer">
+      <div class="company_info_t">E-mail</div><div class="company_info_c"><a href="mailto:pilsoo77@naver.com">pilsoo77@naver.com</a></div>
+    </div>
+    <div class="company_info_outer">
+      <div class="company_info_t">주소</div><div class="company_info_c">경기도 고양시 일산동구 장백로 208(장항동, 성암빌딩 2층)</div>
+    </div>
+  </div>
 </div>
-		
-
-	
-		
 
 
-					<!--screen---------------------------------------------------------------------------------------------->
+
+<!--screen---------------------------------------------------------------------------------------------->
 					<!--screen---------------------------------------------------------------------------------------------->
 		</div>
 			
@@ -4076,7 +4336,7 @@ var windowH = $(window).height(),  // 윈도우 Y 중앙
 	<div class="inorp_s">
 	
 		<div class="bottom_fix_tel_outer fixed">
-			<a href="https://pf.kakao.com/_PbfxbX/chat" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div class="bottom_fix_tel_item"><div class="bottom_icon"><i class="fas fa-comment eff_zoom_icom"></i></div>카톡상담</div></a>
+			<a href="https://pf.kakao.com/_XxjQxbX/chat" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><div class="bottom_fix_tel_item"><div class="bottom_icon"><i class="fas fa-comment eff_zoom_icom"></i></div>카톡상담</div></a>
 			<a href="tel:031-901-5639"><div class="bottom_fix_tel_item"> <div class="bottom_icon"><i class="fas fa-phone eff_zoom_icom"></i></div>전화상담</div></a>
 		</div>
 
@@ -4185,139 +4445,7 @@ if(navigator.userAgent.match(/Trident\/7\./)) {
 
 
 
-<style>
 
-
-</style>
-<script>
-function buildKakaoConsultationMessage() {
-  var form = document.getElementById('quick-consultation');
-  if (!form) return '';
-
-  var name = (form.sender_office.value || '').trim();
-  var mobile = (form.mobile.value || '').trim();
-  var message = (form.sms_msg.value || '').trim();
-
-  if (!name && !mobile && !message) return '';
-
-  return [
-    '[고려신용정보 일산지점 상담문의]',
-    '이름: ' + (name || '-'),
-    '연락처: ' + (mobile || '-'),
-    '상담내용: ' + (message || '-')
-  ].join('\n');
-}
-
-function copyTextToClipboard(text) {
-  if (navigator.clipboard && window.isSecureContext) {
-    return navigator.clipboard.writeText(text).then(function() { return true; });
-  }
-
-  return new Promise(function(resolve) {
-    var textarea = document.createElement('textarea');
-    textarea.value = text;
-    textarea.setAttribute('readonly', 'readonly');
-    textarea.style.position = 'fixed';
-    textarea.style.left = '-9999px';
-    document.body.appendChild(textarea);
-    textarea.select();
-
-    var copied = false;
-    try {
-      copied = document.execCommand('copy');
-    } catch (error) {
-      copied = false;
-    }
-
-    document.body.removeChild(textarea);
-    resolve(copied);
-  });
-}
-
-function openKakaoConsultation(event) {
-  var link = event.currentTarget;
-  var status = document.getElementById('consultationStatus');
-  var consultationText = buildKakaoConsultationMessage();
-
-  if (!consultationText) {
-    return true;
-  }
-
-  event.preventDefault();
-  var chatWindow = window.open(link.href, '_blank', 'noopener,noreferrer');
-
-  if (status) {
-    status.innerHTML = '카카오톡 채팅창을 열고 있습니다. 상담 내용을 붙여넣어 보내 주세요.';
-  }
-
-  copyTextToClipboard(consultationText).then(function(copied) {
-    if (status) {
-      status.innerHTML = copied
-        ? '상담 내용이 복사되었습니다. 카카오톡 채팅창에 붙여넣어 주세요.'
-        : '카카오톡 채팅창에 아래 상담 내용을 복사해서 보내 주세요.<br>' + consultationText.replace(/\n/g, '<br>');
-    }
-  }).catch(function() {
-    if (status) {
-      status.innerHTML = '카카오톡 채팅창에 아래 상담 내용을 복사해서 보내 주세요.<br>' + consultationText.replace(/\n/g, '<br>');
-    }
-  });
-
-  if (!chatWindow) {
-    window.location.href = link.href;
-  }
-
-  return false;
-}
-function submitConsultationForm(event) {
-  event.preventDefault();
-  var form = event.target;
-  var status = document.getElementById('consultationStatus');
-  var agreement = document.getElementById('Agreement1sms');
-  var name = (form.sender_office.value || '').trim();
-  var mobile = (form.mobile.value || '').trim();
-  var message = (form.sms_msg.value || '').trim();
-  var button = form.querySelector('button[type="submit"]');
-
-  if (!agreement || !agreement.checked) {
-    alert('개인정보처리방침에 동의해 주세요.');
-    return false;
-  }
-  if (!name) {
-    alert('이름을 입력해 주세요.');
-    form.sender_office.focus();
-    return false;
-  }
-  if (!mobile) {
-    alert('연락처를 입력해 주세요.');
-    form.mobile.focus();
-    return false;
-  }
-
-  if (status) status.innerHTML = '상담신청을 접수하는 중입니다.';
-  if (button) button.disabled = true;
-
-  fetch('/api/consultation', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({name: name, mobile: mobile, message: message, source: window.location.href})
-  })
-    .then(function(response) { return response.json().then(function(data) { return {ok: response.ok, data: data}; }); })
-    .then(function(result) {
-      if (!result.ok || !result.data.ok) throw new Error(result.data.message || '상담신청 처리 중 오류가 발생했습니다.');
-      if (status) status.innerHTML = result.data.message || (result.data.emailSent ? '상담신청이 이메일로 발송되었습니다.' : '상담신청이 접수되었습니다.');
-      form.reset();
-    })
-    .catch(function(error) {
-      if (status) status.innerHTML = error.message;
-      alert(error.message);
-    })
-    .finally(function() {
-      if (button) button.disabled = false;
-    });
-
-  return false;
-}
-</script>
 </body>
 </html>
 
